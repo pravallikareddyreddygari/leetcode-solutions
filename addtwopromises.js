@@ -1,5 +1,3 @@
 var addTwoPromises = async function (promise1, promise2) {
-    let x = await promise1
-    let y = await promise2
-    return x + y
+    return await promise1 + await promise2
 };

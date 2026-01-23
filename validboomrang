@@ -5,6 +5,8 @@ const canFormTriangle = ([x1, y1], [x2, y2], [x3, y3]) => {
 }
 
 var isBoomerang = function (points) {
+    
     let [p1, p2, p3] = points
+
     return canFormTriangle(p1, p2, p3)
 };

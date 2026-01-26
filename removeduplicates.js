@@ -5,6 +5,7 @@ var removeDuplicates = function(a) {
             a.splice(i + 1, 1) // delete duplicate
             i-- 
         }
+        
     }
  return a.length
 };

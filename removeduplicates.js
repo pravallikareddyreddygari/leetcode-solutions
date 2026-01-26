@@ -8,5 +8,4 @@ var removeDuplicates = function(a) {
     }
 
  return a.length
- 
 };

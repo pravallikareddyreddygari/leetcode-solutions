@@ -4,8 +4,8 @@ var removeDuplicates = function(a) {
         if (a[i] === a[i + 1]) {
             a.splice(i + 1, 1) // delete duplicate
             i-- 
-        }
-        
+        }  
     }
+    
  return a.length
 };

@@ -1,4 +1,5 @@
 var generateKey = function (num1, num2, num3) {
+    
     const getFourLen0PaddedStr = (num) => ('' + num).padStart(4, '0')
 
     let s1 = getFourLen0PaddedStr(num1)

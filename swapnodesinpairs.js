@@ -73,7 +73,7 @@ var minimumPairRemoval = function (nums) {
         ct++;
         let mins = Infinity;
         let minsi = undefined;
-        
+
         for (let i = 1; i < nums.length; i++) {
             let s = a[i - 1] + a[i];
             if (s < mins) {
@@ -81,6 +81,7 @@ var minimumPairRemoval = function (nums) {
                 minsi = i;
             }
         }
+        
         if (minsi !== undefined) {
             a[minsi - 1] = a[minsi - 1] + a[minsi];
             a.splice(minsi, 1);

@@ -63,7 +63,6 @@ function isEqualOrIncreasing(a) {
     return true;
 }
 
-
 var minimumPairRemoval = function (nums) {
     let a = nums;
     let ct = 0;
@@ -74,6 +73,7 @@ var minimumPairRemoval = function (nums) {
         ct++;
         let mins = Infinity;
         let minsi = undefined;
+        
         for (let i = 1; i < nums.length; i++) {
             let s = a[i - 1] + a[i];
             if (s < mins) {

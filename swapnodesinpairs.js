@@ -63,6 +63,7 @@ function isEqualOrIncreasing(a) {
     return true;
 }
 
+
 var minimumPairRemoval = function (nums) {
     let a = nums;
     let ct = 0;

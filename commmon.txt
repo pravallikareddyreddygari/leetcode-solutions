@@ -1,0 +1,49 @@
+import { getClient, getModel } from './common.ts';
+import fs from 'fs';
+
+const client = getClient();
+const model = getModel();
+
+const FILE_NAME = 'data/stateofhtml-about.pdf';
+
+async function main() {
+	console.log('--- main() - begin ---');
+
+	console.log('--- main() - uploading file --- ...', FILE_NAME);
+	const file = await client.files.create({
+		file: fs.createReadStream(FILE_NAME),
+		purpose: 'user_data',
+	});
+	console.log('--- main() - uploading file - done ---');
+
+	try {
+		console.log('--- main() - MODEL_NAME ---', { model});
+
+		const response = await client.responses.create({
+			model: model,
+			input: [
+				{
+					role: 'user',
+					content: [
+						{
+							type: 'input_file',
+							file_id: file.id,
+						},
+						{
+							type: 'input_text',
+							text: 'What is this file about?',
+						},
+					],
+				},
+			],
+		});
+
+		console.log(response.output_text);
+	} catch (error: any) {
+		let { code, message } = error || {};
+		console.error('SDK Error:', { code, message });
+		// console.error('SDK Error:', error);
+	}
+}
+
+main();

@@ -3,5 +3,5 @@ var smallestRangeI = function (a, k) {
     let first = a[0]
     let last = a.at(-1)
 
-    return diff < 0 ? 0 : diff
+    return (last - k) - (first + k) < 0 ? 0 : (last - k) - (first + k)
 };

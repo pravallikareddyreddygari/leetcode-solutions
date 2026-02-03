@@ -20,6 +20,7 @@ const countLargestGroup = function (n) {
 
         maxFreq = Math.max(maxFreq, freq[sumOfDigits])
     }
+    
 
     let maxFreqCount = 0
     for (const f of Object.values(freq)) {

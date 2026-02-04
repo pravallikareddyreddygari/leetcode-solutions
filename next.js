@@ -8,7 +8,6 @@ var checkStraightLine = function (points) {
         if (prevPoint !== undefined) {
             let slope = getSlope(prevPoint, point)
             if (slope === -Infinity) slope = Infinity
-
             if (prevSlope !== undefined) {
                 if (slope !== prevSlope) return false
             }

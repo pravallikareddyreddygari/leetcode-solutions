@@ -17,7 +17,6 @@ const countLargestGroup = function (n) {
     for (let i = 1; i <= n; i++) {
         let { sumOfDigits } = getSumAndProductOfDigits(i)
         freq[sumOfDigits] = (freq[sumOfDigits] || 0) + 1
-
         maxFreq = Math.max(maxFreq, freq[sumOfDigits])
     }
     

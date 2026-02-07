@@ -1,6 +1,6 @@
 var deleteDuplicates = function (head) {
-   
     let current = head
+    
     while (current !== null && current.next !== null) {
 
         if (current.val === current.next.val) {
@@ -9,6 +9,6 @@ var deleteDuplicates = function (head) {
             current = current.next
         }
     }
-    
+
     return head
 };

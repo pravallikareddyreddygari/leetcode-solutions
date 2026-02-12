@@ -8,8 +8,8 @@ var scoreOfString = function (s) {
     for (let j = 0; j < Asciivalues.length - 1; j++) {
         let newAscii = Math.abs(Asciivalues[j] - Asciivalues[j + 1])
         res.push(newAscii)
-
     }
+
     let sum = 0
     for (let q = 0; q < res.length; q++) {
         sum += res[q];

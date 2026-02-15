@@ -2,6 +2,7 @@ var minimumAverage = function (nums) {
     let avg = []
     let res = []
     let p = [...nums].sort((a, b) => a - b)
+    
     for (let i = 0; i < p.length; i++) {
         while (p.length > 0) {
             let minimumValue = p.shift()

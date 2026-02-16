@@ -21,7 +21,6 @@ const countLargestGroup = function (n) {
     }
     
     let maxFreqCount = 0
-    
     for (const f of Object.values(freq)) {
         if (f === maxFreq) {
             maxFreqCount++

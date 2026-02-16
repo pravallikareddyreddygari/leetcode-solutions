@@ -27,6 +27,5 @@ const countLargestGroup = function (n) {
             maxFreqCount++
         }
     }
-
     return maxFreqCount
 }

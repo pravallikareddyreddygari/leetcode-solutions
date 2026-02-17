@@ -14,6 +14,5 @@ var minimumAbsDifference = function (arr) {
             res.push([arr[i - 1], arr[i]])
         }
     }
-    
     return res
 }

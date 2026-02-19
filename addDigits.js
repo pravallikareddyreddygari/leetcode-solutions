@@ -10,7 +10,6 @@ var getSumAndProductOfDigits = function (n) {
     return { sumOfDigits, productOfDigits };
 };
 
-
 var addDigits = function (num) {
     
     // while 2 or more digits

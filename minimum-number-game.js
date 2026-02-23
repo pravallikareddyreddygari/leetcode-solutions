@@ -7,6 +7,5 @@ var numberGame = function (a) {
         let bob = a.shift()
         res.push(bob, alice)
     }
-    
     return res
 };

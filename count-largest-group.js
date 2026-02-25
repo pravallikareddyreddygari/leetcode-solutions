@@ -13,7 +13,6 @@ var getSumAndProductOfDigits = function (n) {
 const countLargestGroup = function (n) {
     const freq = {}
     let maxFreq = 0
-
     for (let i = 1; i <= n; i++) {
         let { sumOfDigits } = getSumAndProductOfDigits(i)
         freq[sumOfDigits] = (freq[sumOfDigits] || 0) + 1

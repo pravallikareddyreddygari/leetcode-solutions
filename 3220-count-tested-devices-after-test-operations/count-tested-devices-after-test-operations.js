@@ -5,5 +5,6 @@ var countTestedDevices = function (batteryPercentage) {
             testedCount++
         }
     }
+    
     return testedCount
 };

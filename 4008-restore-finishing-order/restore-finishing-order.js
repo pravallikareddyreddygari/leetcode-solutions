@@ -6,5 +6,6 @@ var recoverOrder = function(order, friends) {
       res.push(person);
     }
   }
+
   return res;
 }

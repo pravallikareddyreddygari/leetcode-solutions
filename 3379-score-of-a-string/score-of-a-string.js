@@ -1,18 +1,7 @@
 var scoreOfString = function (s) {
-    let Asciivalues = []
-    let res = []
-    for (let i = 0; i < s.length; i++) {
-        let values = s.charCodeAt(i)
-        Asciivalues.push(values)
-    }
-    for (let j = 0; j < Asciivalues.length - 1; j++) {
-        let newAscii = Math.abs(Asciivalues[j] - Asciivalues[j + 1])
-        res.push(newAscii)
-
-    }
-    let sum = 0
-    for (let q = 0; q < res.length; q++) {
-        sum += res[q];
-    }
-    return sum
-};
+   let ans=0
+   for(let i=0;i<s.length-1;i++){
+    ans+=Math.abs(s.charCodeAt(i)-s.charCodeAt(i+1))
+   }
+   return ans
+}

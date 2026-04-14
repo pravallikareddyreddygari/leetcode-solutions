@@ -8,8 +8,5 @@ var generateKey = function (num1, num2, num3) {
     let sMins = ''
     for (let i = 0; i < 4; i++) {
         sMins += Math.min(+s1[i], +s2[i], +s3[i])
-    }
-
-    
     return +sMins
 };

@@ -12,5 +12,6 @@ var minimumAverage = function (nums) {
             avg.push(average)
         }
     }
+    
     return Math.min(...avg)
 };

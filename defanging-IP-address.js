@@ -7,6 +7,5 @@ var defangIPaddr = function (address) {
             res += ch
         }
     }
-    
     return res
 };

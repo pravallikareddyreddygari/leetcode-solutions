@@ -9,5 +9,6 @@ var returnToBoundaryCount = function (nums) {
         }
     }
     
+    
     return boundaryCross
 }; 

@@ -1,4 +1,3 @@
-const cl=console.log
 var isSameTree = function (proot, qroot) {
     function dfs(p, q) {
         if (!p && !q) return true

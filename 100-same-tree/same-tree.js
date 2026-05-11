@@ -5,6 +5,7 @@ var isSameTree = function (proot, qroot) {
         if (!p && q) return false
         if (p.val !== q.val) return false
 
+        
         let lRes = dfs(p.left, q.left);
         let rRes = dfs(p.right, q.right);
         return lRes && rRes

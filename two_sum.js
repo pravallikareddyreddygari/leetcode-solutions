@@ -5,6 +5,7 @@ var twoSum = function(nums, target) {
             if(target==sum){ 
              return [i,j]
             }
+            
         }
     }
 };

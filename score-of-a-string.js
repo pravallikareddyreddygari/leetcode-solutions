@@ -9,10 +9,11 @@ var scoreOfString = function (s) {
         let newAscii = Math.abs(Asciivalues[j] - Asciivalues[j + 1])
         res.push(newAscii)
     }
+    
     let sum = 0
     for (let q = 0; q < res.length; q++) {
         sum += res[q];
     }
-    
+
     return sum
 };

@@ -4,8 +4,7 @@ var twoSum = function(nums, target) {
            let sum=nums[i]+nums[j]
             if(target==sum){ 
              return [i,j]
-            }
-            
+            }  
         }
     }
 };

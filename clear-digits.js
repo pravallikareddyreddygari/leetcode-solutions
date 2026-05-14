@@ -17,6 +17,5 @@ var clearDigits = function (s) {
    
         }
     }
-    
     return stack.join("")
 };

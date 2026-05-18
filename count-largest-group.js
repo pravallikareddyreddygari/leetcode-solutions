@@ -10,6 +10,7 @@ var getSumAndProductOfDigits = function (n) {
     return { sumOfDigits, productOfDigits };
 };
 
+
 const countLargestGroup = function (n) {
     const freq = {}
     let maxFreq = 0

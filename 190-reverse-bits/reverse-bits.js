@@ -14,7 +14,6 @@ var reverseBits = function (n) {
     return res;
 };
 
-
 var reverseBits3333333 = function (n) {
     let placeValue = 1
     let res = 0;

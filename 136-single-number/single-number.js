@@ -5,6 +5,5 @@ var singleNumber = function (nums) {
         res ^= nums[i];
         cl(res);
     }
-    
     return res;
 };

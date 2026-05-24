@@ -1,5 +1,4 @@
 var smallestRangeI = function (a, k) {
-
     a.sort((a, b) => a - b)
     let first = a[0]
     let last = a.at(-1)

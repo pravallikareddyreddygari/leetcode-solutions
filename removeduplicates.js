@@ -6,5 +6,6 @@ var removeDuplicates = function(a) {
             i-- 
         }  
     }
- return a.length
+ 
+    return a.length
 };

@@ -5,5 +5,6 @@ var removeDuplicates = function(a) {
             i-- 
         }  
     }
+    
     return a.length
 };

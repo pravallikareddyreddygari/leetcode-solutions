@@ -14,5 +14,6 @@ var scoreOfString = function (s) {
     for (let q = 0; q < res.length; q++) {
         sum += res[q];
     }
+    
     return sum
 };

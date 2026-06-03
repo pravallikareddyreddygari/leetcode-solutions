@@ -7,6 +7,5 @@ var numberOfPairs = function (nums1, nums2, k) {
             }
         }
     } 
-    
     return count
 };

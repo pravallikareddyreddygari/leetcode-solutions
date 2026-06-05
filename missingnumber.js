@@ -4,5 +4,6 @@ var missingNumber = function (nums) {
             return i;
         }
     }
+   
     return nums.length;
 };

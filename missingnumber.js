@@ -4,7 +4,6 @@ var missingNumber = function (nums) {
         if (!nums.includes(i)) {
             return i;
         }
-    }
-    
+    } 
     return nums.length;
 };

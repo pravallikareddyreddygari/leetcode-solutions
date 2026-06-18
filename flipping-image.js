@@ -8,6 +8,5 @@ var flipAndInvertImage = function (image) {
             row[j] = 1 - row[j];
         }
     }
- 
     return image;
 }

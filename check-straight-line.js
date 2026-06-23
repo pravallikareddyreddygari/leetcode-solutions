@@ -12,6 +12,7 @@ var checkStraightLine = function (points) {
             prevSlope = slope
         }
         prevPoint = point
-    }  
+    } 
+     
     return true;
 };

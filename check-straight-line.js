@@ -13,5 +13,6 @@ var checkStraightLine = function (points) {
         }
         prevPoint = point
     } 
+    
     return true;
 };

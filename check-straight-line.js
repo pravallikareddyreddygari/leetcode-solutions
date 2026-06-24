@@ -1,5 +1,6 @@
 var checkStraightLine = function (points) {
     const getSlope = ([x1, y1], [x2, y2]) => (y2 - y1) / (x2 - x1);
+    
     let prevPoint;
     let prevSlope;
     for (let point of points) {

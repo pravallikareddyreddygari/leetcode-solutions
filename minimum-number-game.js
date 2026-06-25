@@ -5,7 +5,6 @@ var numberGame = function (a) {
         let alice = a.shift()
         let bob = a.shift()
         res.push(bob, alice)
-    }
-    
+    } 
     return res
 };

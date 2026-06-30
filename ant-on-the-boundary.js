@@ -7,6 +7,5 @@ var returnToBoundaryCount = function (nums) {
             boundaryCross++
         }
     }
-    
     return boundaryCross
 }; 

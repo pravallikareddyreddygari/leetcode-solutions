@@ -7,6 +7,7 @@ function getDigitSum(num) {
     return sum
 }
 
+
 var minElement = function (nums) {
     let minSum = Infinity
     for (let i = 0; i < nums.length; i++) {

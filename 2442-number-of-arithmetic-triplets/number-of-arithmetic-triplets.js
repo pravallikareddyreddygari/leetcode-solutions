@@ -1,4 +1,3 @@
-const cl = console.log
 var arithmeticTriplets = function (nums, diff) {
     let count = 0
     for (let i = 0; i < nums.length; i++) {

@@ -4,7 +4,6 @@ var findPermutationDifference = function (s, t) {
         pos[s[i]] = i;
     }
     let diff = 0;
-
     for (let i = 0; i < t.length; i++) {
         diff += Math.abs(pos[t[i]] - i);
     }

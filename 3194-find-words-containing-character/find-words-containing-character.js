@@ -6,6 +6,5 @@ var findWordsContaining = function (words, x) {
             result.push(i);
         }
     }
-
     return result;
 };

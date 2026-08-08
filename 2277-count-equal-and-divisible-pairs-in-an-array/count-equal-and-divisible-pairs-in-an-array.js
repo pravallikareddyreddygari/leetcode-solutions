@@ -7,6 +7,5 @@ var countPairs = function (nums, k) {
             }
         }
     }
-    
     return count
 };

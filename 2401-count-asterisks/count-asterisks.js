@@ -10,6 +10,5 @@ var countAsterisks = function (s) {
             total += starC
         }
     }
-    
     return total
 };

@@ -1,4 +1,3 @@
-
 var numberOfMatches = function (n) {
     let count = 0
     while (n > 1) {

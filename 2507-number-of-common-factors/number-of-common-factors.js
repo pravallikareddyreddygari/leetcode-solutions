@@ -5,6 +5,5 @@ var commonFactors = function (a, b) {
             count++
         }
     }
-
     return count;
 };

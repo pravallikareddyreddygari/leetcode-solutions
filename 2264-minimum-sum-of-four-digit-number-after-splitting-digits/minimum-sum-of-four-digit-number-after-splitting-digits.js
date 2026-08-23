@@ -1,6 +1,5 @@
 var minimumSum = function (num) {
-    let arr = (num + "")
-        .split("")
+    let arr = (num + "").split("")
         .map((x) => +x)
         .sort((a, b) => a - b);
     let new1 = arr[0] + "" + arr[2];

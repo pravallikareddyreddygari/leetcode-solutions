@@ -1,6 +1,7 @@
 const cl = console.log
 //  s = s * 10 + d      decimal
 //  s = s * 2 + d      binary
+
 var reverseBits = function (n) {
     let res = 0;
 
@@ -12,7 +13,6 @@ var reverseBits = function (n) {
 
     return res;
 };
-
 
 var reverseBits3333333 = function (n) {
     let placeValue = 1

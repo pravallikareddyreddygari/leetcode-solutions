@@ -4,6 +4,5 @@ var areOccurrencesEqual = function (s) {
         freqObj[x] = (freqObj[x] ?? 0) + 1
     }
     let counts = [...Object.values(freqObj)]
-
     return (new Set(counts)).size === 1
 };

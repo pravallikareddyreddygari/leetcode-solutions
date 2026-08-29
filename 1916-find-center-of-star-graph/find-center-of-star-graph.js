@@ -11,7 +11,6 @@ var findCenter = function (edges) {
         outdegree[v] = (outdegree[v] ?? 0) + 1
         indegree[u] = (indegree[u] ?? 0) + 1
     }
-
     for (let u = 1; u <= V; u++) {
         if (indegree[u] === E) {
             return u

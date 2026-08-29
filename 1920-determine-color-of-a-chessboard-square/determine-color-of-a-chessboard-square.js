@@ -4,7 +4,6 @@ var squareIsWhite = function (s) {
     let num2 = ch.charCodeAt() - 97;
     return (num + num2) % 2 === 0
 }
-
 var squareIsWhite22222 = function (s) {
     // s = "a1"
     const [ch, num] = s;

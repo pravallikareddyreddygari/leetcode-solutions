@@ -3,6 +3,7 @@ var findCenter = function (edges) {
     let V = E + 1 // 4
     let indegree = {}
     let outdegree = {}
+    
     for (let [u, v] of edges) {
         // u   ->   v
         outdegree[u] = (outdegree[u] ?? 0) + 1

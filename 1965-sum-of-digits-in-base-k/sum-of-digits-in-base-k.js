@@ -5,6 +5,5 @@ var sumBase = function (n, k) {
         sumOfDigits += n % k; // last digit, base k division
         n = Math.trunc(n / k) // remove last digit, base k division
     }
-
     return sumOfDigits;
 };

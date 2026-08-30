@@ -1,7 +1,6 @@
 var sortSentence = function (s) {
     let res = []
     let a = s.split(" ")
-    
     for (let w of a) {
         let wl = w.length
         let first = w.slice(0, wl - 1)
@@ -9,4 +8,5 @@ var sortSentence = function (s) {
         res[lastIndex] = first
     }
     return res.join(" ")
+
 };

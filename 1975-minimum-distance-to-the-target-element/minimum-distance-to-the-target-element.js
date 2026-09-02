@@ -8,6 +8,5 @@ var getMinDistance = function (a, target, start) {
             }
         }
     });
-
     return minAbs
 }

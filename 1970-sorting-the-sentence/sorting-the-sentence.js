@@ -8,4 +8,5 @@ var sortSentence = function (s) {
         res[lastIndex] = first
     }
     return res.join(" ")
+
 };

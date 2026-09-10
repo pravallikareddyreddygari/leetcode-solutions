@@ -12,7 +12,6 @@ var getSumAndProductOfDigits = function (n) {
 
 var countEven = function (num) {
     let count = 0;
-
     for (let n = 1; n <= num; n++) {
         let { sum } = getSumAndProductOfDigits(n)
         count += sum % 2 === 0;

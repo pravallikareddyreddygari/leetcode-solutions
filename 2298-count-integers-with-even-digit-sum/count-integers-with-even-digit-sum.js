@@ -16,6 +16,5 @@ var countEven = function (num) {
         let { sum } = getSumAndProductOfDigits(n)
         count += sum % 2 === 0;
     }
-
     return count;
 };

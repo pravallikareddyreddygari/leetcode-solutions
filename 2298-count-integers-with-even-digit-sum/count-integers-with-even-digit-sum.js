@@ -10,7 +10,6 @@ var getSumAndProductOfDigits = function (n) {
     return { sum, product }
 }
 
-
 var countEven = function (num) {
     let count = 0;
     for (let n = 1; n <= num; n++) {

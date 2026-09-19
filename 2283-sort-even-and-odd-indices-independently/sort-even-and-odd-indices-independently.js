@@ -8,6 +8,7 @@ var sortEvenOdd = function (nums) {
             odd.push(nums[i]);
         }
     }
+    
     even.sort((a, b) => a - b);
     odd.sort((a, b) => b - a);
     let res = [];

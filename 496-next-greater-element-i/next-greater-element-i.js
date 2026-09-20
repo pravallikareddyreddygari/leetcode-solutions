@@ -1,7 +1,6 @@
 var nextGreaterElement = function (nums1, nums2) {
     let n = nums1.length
     let m = nums2.length
-
     let firstGreatest2 = new Array(m).fill(-1)
     for (let j = m - 1; j >= 0; j--) {
         for (let i = j + 1; i < m; i++) {

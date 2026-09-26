@@ -7,6 +7,5 @@ var pivotArray = function (nums, pivot) {
         else if (num === pivot) equal.push(num);
         else greater.push(num);
     }
-
     return [...less, ...equal, ...greater];
 };

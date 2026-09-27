@@ -2,6 +2,7 @@ var clearDigits = function (s) {
     let stack = []
     const top = (stack) => stack.at(-1)
     let maxd = 0
+    
     for (let ch of s) {
         if (/[a-z]/.test(ch)) {
             stack.push(ch) // add alphabet

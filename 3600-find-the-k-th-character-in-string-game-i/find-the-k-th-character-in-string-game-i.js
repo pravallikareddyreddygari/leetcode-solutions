@@ -9,6 +9,7 @@ function nextCircularStr(s) {
     }
     return t
 }
+
 var kthCharacter = function (k) {
     let w = 'a'
     if (k === 1) return w

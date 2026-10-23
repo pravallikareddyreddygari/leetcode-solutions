@@ -1,6 +1,5 @@
 function sumOfDigits(num) {
     let s = 0
-
     while (num) {
         s += num % 10
         num = Math.trunc(num / 10)

@@ -1,7 +1,7 @@
 var isPalindrome = function (head) {
 	let ll = new LinkedList_({ head });
 	let a = ll.toArray();
-	return a.join('') === [...a].reverse().join('');
+	 return a.join('') === [...a].reverse().join('');
 };
 
 

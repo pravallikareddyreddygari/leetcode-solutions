@@ -10,7 +10,6 @@ var getSumOfDigitSquared = function (n) {
 
 var isHappy = function (n) {
     let seen = new Set();
-
     while (n !== 1) {
         if (seen.has(n)) return false;
         seen.add(n);

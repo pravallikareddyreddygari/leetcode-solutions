@@ -17,6 +17,5 @@ var isHappy = function (n) {
         let { sumOfDigitSquared } = getSumOfDigitSquared(n);
         n = sumOfDigitSquared;
     }
-
     return true;
 };

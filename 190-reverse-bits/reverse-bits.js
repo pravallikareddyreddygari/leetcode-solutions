@@ -8,7 +8,6 @@ var reverseBits = function (n) {
         const placeValue = 2 ** (31 - i)
         res = res + (placeValue * ithBitValue)
     }
-
     return res;
 };
 

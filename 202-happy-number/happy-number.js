@@ -8,6 +8,7 @@ var getSumOfDigitSquared = function (n) {
     return { sumOfDigitSquared };
 };
 
+
 var isHappy = function (n) {
     let seen = new Set();
 

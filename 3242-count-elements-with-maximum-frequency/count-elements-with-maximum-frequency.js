@@ -3,7 +3,6 @@ var maxFrequencyElements = function (nums) {
     for (let num of nums) {
         counts[num] = (counts[num] || 0) + 1
     }
-
     let maxFreq = 0
     for (let num in counts) {
         if (counts[num] > maxFreq) {

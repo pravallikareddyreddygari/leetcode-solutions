@@ -1,4 +1,3 @@
-const cl = console.log
 var sortSentence = function (s) {
     let res = []
     let a = s.split(" ")

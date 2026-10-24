@@ -1,6 +1,5 @@
 var removeOuterParentheses = function (s) {
     let res = ''
-
     let t = ''
     let obc = 0
     let cbc = 0

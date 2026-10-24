@@ -1,5 +1,4 @@
 var maxDepth = function (root) {
-
     function dfs(n) {
         if (!n) return 0;
 

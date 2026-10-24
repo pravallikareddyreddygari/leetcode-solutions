@@ -1,6 +1,5 @@
 var countAsterisks = function (s) {
     let a = s.split("|")
-
     let n = a.length
     let total = 0
     for (let i = 0; i < n; i++) {

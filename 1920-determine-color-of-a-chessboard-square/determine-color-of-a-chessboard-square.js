@@ -5,6 +5,7 @@ var squareIsWhite = function (s) {
     return (num + num2) % 2 === 0
 }
 
+
 var squareIsWhite22222 = function (s) {
     // s = "a1"
     const [ch, num] = s;

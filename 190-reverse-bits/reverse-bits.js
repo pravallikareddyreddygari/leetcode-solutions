@@ -3,7 +3,6 @@ const cl = console.log
 //  s = s * 2 + d      binary
 var reverseBits = function (n) {
     let res = 0;
-
     for (let i = 31; i >= 0; i--) {
         let ithBitValue = (n & (1 << i)) ? 1 : 0
         const placeValue = 2 ** (31 - i)

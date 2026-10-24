@@ -21,7 +21,6 @@ var reverseBits3333333 = function (n) {
         res = res + (placeValue * ithBitValue)
         placeValue = 2 * placeValue
     }
-
     return res;
 };
 

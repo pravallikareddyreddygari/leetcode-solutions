@@ -4,6 +4,7 @@ var isPalindrome = function (head) {
 	return a.join('') === [...a].reverse().join('');
 };
 
+
 class ListNode {
 	val;
 	next;

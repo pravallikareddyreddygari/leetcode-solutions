@@ -14,7 +14,6 @@ var reverseBits = function (n) {
 var reverseBits3333333 = function (n) {
     let placeValue = 1
     let res = 0;
-
     for (let i = 31; i >= 0; i--) {
         let ithBitValue = (n & (1 << i)) ? 1 : 0
         res = res + (placeValue * ithBitValue)

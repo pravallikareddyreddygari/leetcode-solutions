@@ -1,8 +1,6 @@
 var interpret = function (s) {
     let n = s.length
-
     let res = ''
-
     let i = 0
     while (i < n) {
         let x = s[i]

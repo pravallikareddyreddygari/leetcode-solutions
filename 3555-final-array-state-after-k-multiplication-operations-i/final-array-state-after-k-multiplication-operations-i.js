@@ -6,6 +6,7 @@ var getFinalState = function (nums, k, multiplier) {
         let v = nums[i]
         minPq.enqueue([v, i]) // O( logN )
     }
+
     // O( k log n)
     while (k--) {
         const [v, i] = minPq.dequeue() // O( logN )

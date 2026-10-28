@@ -13,6 +13,5 @@ var sortList = function (head) {
         t.val = vals.shift()
         t = t.next
     }
-
     return head
 }

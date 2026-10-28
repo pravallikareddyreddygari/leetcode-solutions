@@ -8,7 +8,6 @@ var sortList = function (head) {
     }
 
     vals.sort((a, b) => a - b)
-
     t = head
     while (t) {
         t.val = vals.shift()

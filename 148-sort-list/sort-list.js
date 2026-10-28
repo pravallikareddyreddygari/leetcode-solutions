@@ -1,6 +1,5 @@
 var sortList = function (head) {
     let vals = []
-
     let t = head
     while (t) {
         vals.push(t.val)

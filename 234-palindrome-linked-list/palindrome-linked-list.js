@@ -3,7 +3,6 @@ var isPalindrome = function (head) {
 	let a = ll.toArray();
 	 return a.join('') === [...a].reverse().join('');
 }
-
 class ListNode {
 	val;
 	next;

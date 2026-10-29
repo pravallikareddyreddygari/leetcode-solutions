@@ -1,5 +1,4 @@
-var countNodes = function (root) {
-    
+var countNodes = function (root) { 
     if (!root) return 0
     let leftHeight = 0
     let current = root

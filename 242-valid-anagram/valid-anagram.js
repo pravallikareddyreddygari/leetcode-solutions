@@ -6,6 +6,7 @@ var isAnagram = function (s, t) {
         obj1[s[i]] = (obj1[s[i]] || 0) + 1;
         obj2[t[i]] = (obj2[t[i]] || 0) + 1;
     }
+    
     for (let key in obj1) {
         if (obj1[key] != obj2[key]) return false
     }

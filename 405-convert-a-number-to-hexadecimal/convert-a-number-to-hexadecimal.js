@@ -7,7 +7,6 @@ var toHex = function (num) {
 
 var toHex = function (num) {
     const hexDigits = '0123456789abcdef'
-
     let res = []
     while (num) {
         let last4Bits = num & 0b1111

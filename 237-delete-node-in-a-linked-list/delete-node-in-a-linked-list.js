@@ -2,7 +2,6 @@ var deleteNode = function (node) {
 	let ll = new LinkedList_();
 	ll.deleteNodeInPlace(node);
 };
-
 class ListNode {
 	val;
 	next;

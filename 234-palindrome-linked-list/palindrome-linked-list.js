@@ -12,7 +12,6 @@ class ListNode {
 	}
 }
 
-
 class LinkedList_ {
 	head;
 	// 		head(1) -> ln (2) -> ln (3) -> null

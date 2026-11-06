@@ -1,11 +1,8 @@
 var triangleType = function (a) {
     let types = ['none', 'equilateral', 'isosceles', 'scalene']
-
     a.sort((a, b) => a - b)
-
     let [s1, s2, s3] = a
     if (s1 + s2 <= s3) return types[0]
-
     let set = new Set(a)
     // [5,5,5] => { 5 }     // 1
     // [5,5,6] => { 5,6 }   // 2

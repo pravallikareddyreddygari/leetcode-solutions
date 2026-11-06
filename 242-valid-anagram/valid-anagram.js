@@ -1,5 +1,6 @@
 var isAnagram = function (s, t) {
-    if (s.length != t.length) return false
+    if (s.length != t.length) 
+        return false
     obj1 = {}
     obj2 = {}
     for (let i = 0; i < s.length; i++) {

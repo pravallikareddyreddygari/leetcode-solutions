@@ -9,7 +9,6 @@ var maxFrequencyElements = function (nums) {
             maxFreq = counts[num]
         }
     }
-
     let totalFrequencies = 0
     for (let num in counts) {
         if (counts[num] === maxFreq) {

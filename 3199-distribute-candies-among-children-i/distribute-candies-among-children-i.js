@@ -10,6 +10,5 @@ var distributeCandies = function (n, candyLimitPerChild) {
             }
         }
     }
-
     return total; // total number of ways to distribute
 };

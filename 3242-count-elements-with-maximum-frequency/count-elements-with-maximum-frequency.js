@@ -1,6 +1,5 @@
 var maxFrequencyElements = function (nums) {
     let counts = {}
-    
     for (let num of nums) {
         counts[num] = (counts[num] || 0) + 1
     }

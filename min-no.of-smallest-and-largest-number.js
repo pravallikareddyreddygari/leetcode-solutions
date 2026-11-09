@@ -11,7 +11,6 @@ var minimumAverage = function (nums) {
             let average = (minimumValue + maximumValue) / 2
             avg.push(average)
         }
-    }
-    
+    } 
     return Math.min(...avg)
 };

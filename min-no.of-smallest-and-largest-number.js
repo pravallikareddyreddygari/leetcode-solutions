@@ -7,9 +7,9 @@ var minimumAverage = function (nums) {
             let minimumValue = p.shift()
             //cl(minimumValue)
             let maximumValue = p.pop()
-            //cl(maximumValue)
+             //cl(maximumValue)
             let average = (minimumValue + maximumValue) / 2
-            avg.push(average)
+             avg.push(average)
         }
     } 
     return Math.min(...avg)

@@ -11,6 +11,5 @@ var findIntersectionValues = function (nums1, nums2) {
             c2++
         }
     }
-
     return [c1, c2]
 };

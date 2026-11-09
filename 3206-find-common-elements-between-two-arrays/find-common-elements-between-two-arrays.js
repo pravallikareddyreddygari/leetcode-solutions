@@ -12,4 +12,4 @@ var findIntersectionValues = function (nums1, nums2) {
         }
     }
     return [c1, c2]
-};
+ };

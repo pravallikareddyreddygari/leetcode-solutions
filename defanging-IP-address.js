@@ -3,7 +3,7 @@ var defangIPaddr = function (address) {
     for (let ch of address) {
         if (ch === '.') {
             res += '[.]'
-        } else {
+        }else {
             res += ch
         }
     }

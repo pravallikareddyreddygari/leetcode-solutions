@@ -1,4 +1,4 @@
-var numberOfPairs = function (nums1, nums2, k) {
+var numberOfPairs = function (nums1, nums2, k){
     let count = 0 
     for (let i = 0; i < nums1.length; i++) {
         for (let j = 0; j < nums2.length; j++) {
